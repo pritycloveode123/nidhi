@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${spaceGrotesk.variable} ${geistSans.variable} ${geistMono.variable} font-spaceGrotesk antialiased`}>
         
-       
+        <p> This is a test tag </p>
        <Navbar />
         {children}
         <Footer />
